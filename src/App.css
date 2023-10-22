@@ -13,8 +13,186 @@
   }
 }
 
+.main-frame {
+  text-align: left;
+  padding: 75px;
+  padding-bottom: 10%;
+  margin: 0 auto;
+  margin-top: 10%;
+  border: 1px solid #7ac9ea;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px grey;
+  max-width: 750px;
+  width: 650px;
+}
+.App .searchButton {
+  border-radius: 20px;
+  background: rgb(165, 209, 209);
+  box-shadow: 10px 5px 5px grey;
+}
+.App .search {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#currentdate {
+  font-size: 40px;
+}
+
+.temp {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Poor Story", cursive;
+}
+#ftemp {
+  position: relative;
+  text-decoration: none;
+  font-size: 15px;
+  right: 9px;
+  bottom: 25px;
+}
+#ctemp {
+  position: relative;
+  text-decoration: none;
+  font-size: 15px;
+  right: 3px;
+  bottom: 25px;
+}
+#line {
+  position: relative;
+  font-size: 15px;
+  right: 5px;
+  bottom: 25px;
+}
+
+#cTempPic {
+  font-size: 50px;
+}
+.weather-info {
+  position: relative;
+  bottom: 25px;
+  font-size: 15px;
+  right: 25px;
+  list-style: none;
+  text-align: right;
+  padding-right: 10px;
+  font-family: "Poor Story", cursive;
+}
+#current-location {
+  background: rgb(165, 209, 209);
+}
+
+.futureTempImages {
+  padding-top: 50px;
+}
+
+.futureTemps {
+  padding-top: 20px;
+}
+.ftemp {
+  font-size: 24px;
+  position: relative;
+  right: -15px;
+  font-family: "Poor Story", cursive;
+}
+#pics {
+  font-size: 50px;
+}
+#location {
+  position: relative;
+  left: -50px;
+  font-size: 50px;
+  font-family: "Poor Story", cursive;
+  font-weight: bold;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+#humidity {
+  color: #a5d1d0;
+}
+#wind {
+  color: #a5d1d0;
+}
+#pics {
+  padding-left: 50px;
+  /* From https://css.glass */
+  background: rgba(165, 209, 208, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border: 1px solid rgba(165, 209, 208, 0.76);
+}
+#weather-image {
+  width: 65px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+#weather-desc {
+  font-size: 20px;
+
+  position: relative;
+  left: 40px;
+  top: -10px;
+  color: #a4d1d1;
+}
+#forecast {
+  color: #a5d1d0;
+  font-weight: bold;
+  font-family: "Poor Story", cursive;
+}
+.col-2:hover {
+  background: rgba(165, 209, 208, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(165, 209, 208, 0.31);
+  color: whitesmoke;
+}
+.weather-forecast {
+  padding-top: 10px;
+  text-align: center;
+  margin-right: -60px;
+}
+
+#d1-image {
+  position: relative;
+  width: 50px;
+  border: 1px solid;
+  right: 20px;
+}
+
+#d1 {
+  position: relative;
+  font-size: 15px;
+  right: 15px;
+}
+#day {
+  font-size: 15px;
+  position: relative;
+}
+
+footer {
+  padding-left: 75px;
+  margin: auto;
+  text-align: center;
+}
+@media (min-with: 200px) {
+  .mainFrame {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .App-header {
   background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;

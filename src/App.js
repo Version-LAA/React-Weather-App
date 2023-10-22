@@ -1,21 +1,26 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Form from "./Form";
+import CurrentTemp from "./CurrentTemp";
+import CurrentDate from "./CurrentDate";
+import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Weather App</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          With React!!
-        </a>
-      </header>
+      <div className="container">
+        <div className="main-frame mt-5">
+          <Form />
+          <CurrentDate />
+          <br />
+          <CurrentTemp />
+          <WeatherInfo />
+          <WeatherForecast />
+        </div>
+        <br />
+        <Footer />
+      </div>
     </div>
   );
 }
