@@ -4,13 +4,12 @@ export default function Footer() {
   return (
     <footer>
       <a
-        href="https://github.com/Version-LAA/weather-app"
+        href="https://github.com/Version-LAA/React-Weather-App"
         target="_blank"
         rel="noreferrer"
       >
-        Open Source Code by
+        Open Source Code by Version-LAA (Github)
       </a>
-      Latoya A
     </footer>
   );
 }
